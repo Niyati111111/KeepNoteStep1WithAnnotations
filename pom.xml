@@ -29,9 +29,9 @@
 
 		<!-- Dependency for JSTL to be added -->
 
-	  <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl -->
+	  <!-- https://mvnrepository.com/artifact/org.glassfish/javax.servlet.jsp.jstl -->
 	  <dependency>
-		  <groupId>javax.servlet.jsp.jstl</groupId>
+		  <groupId>javax.servlet</groupId>
 		  <artifactId>jstl</artifactId>
 		  <version>1.2</version>
 	  </dependency>
