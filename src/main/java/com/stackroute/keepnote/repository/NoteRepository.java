@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.stackroute.keepnote.model.Note;
+import org.springframework.stereotype.Component;
 
 /*
  * This class contains the code for data storage interactions and methods
@@ -11,6 +12,7 @@ import com.stackroute.keepnote.model.Note;
  * as Controllers and Test Cases
  * */
 
+@Component
 public class NoteRepository {
 
 	/* Declare a variable called "list" to store all the notes. */
